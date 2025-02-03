@@ -4,6 +4,14 @@ public class User {
 
 	private Long userid;
 	private String username;
+	private Double salary;
+
+	public Double getSalary(){
+		return salary;
+	}
+	public void setSalary(Double salary){
+		this.salary = salary
+	}
 	public Long getUserid() {
 		return userid;
 	}
